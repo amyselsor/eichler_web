@@ -7,6 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id="complete-header">
+		<div id="left-header">
+			<div id="left-header-social">
+				<ul class="inline-navigation">
+					<li>Twitter</li>
+					<li>Facebook</li>
+					<li>Pinterest</li>
+				</ul>
+			</div>
+			<div id="left-header-navbar">
+				<ul class="inline-navigation">
+					<li>Home</li>
+					<li>Bio</li>
+					<li>Art</li>
+					<li>Awards</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</div>
+		<div id="right-header">
+			<%=image_tag('eichler_logo.png')%>
+		</div>
+	</div>
 
 <%= yield %>
 

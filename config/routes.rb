@@ -1,4 +1,9 @@
 EichlerWeb::Application.routes.draw do
+  get "main_pages/home"
+  get "main_pages/bio"
+  get "main_pages/art"
+  get "main_pages/awards"
+  get "main_pages/contact"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
